@@ -55,7 +55,7 @@ namespace WpfCalculadora
             catch
 
             {
-                MessageBox.Show("Verifique los datos ingresados", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                MessageBox.Show("Verifique los datos ingresados", "Error", MessageBoxButton.OK, MessageBoxImage.Exclamation);
             }
         }
 

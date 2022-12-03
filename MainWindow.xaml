@@ -23,14 +23,14 @@
         <Button x:Name="_3" Content="3" Height="70" Margin="196,228,0,0" VerticalAlignment="Top" Click="_3_Click" FontSize="16" HorizontalAlignment="Left" Width="90" Cursor="Hand"/>
         <Button x:Name="_6" Content="6" Height="70" Margin="196,153,0,0" VerticalAlignment="Top" Click="_6_Click" FontSize="16" HorizontalAlignment="Left" Width="90" Cursor="Hand"/>
         <Button x:Name="_9" Content="9" Height="70" Margin="196,77,0,0" VerticalAlignment="Top" Click="_9_Click" FontSize="16" HorizontalAlignment="Left" Width="90" Cursor="Hand"/>
-        <Button x:Name="btncalcular" Content="=" Height="70" Margin="10,377,0,0" VerticalAlignment="Top" Click="btncalcular_Click" FontSize="20" Background="#FFF0B5B5" HorizontalAlignment="Left" Width="371" Cursor="Hand"/>
+        <Button x:Name="btncalcular" Content="=" Height="53" Margin="10,377,0,0" VerticalAlignment="Top" Click="btncalcular_Click" FontSize="20" Background="#FFF0B5B5" HorizontalAlignment="Left" Width="371" Cursor="Hand"/>
         <Button x:Name="_0" Content="0" Height="70" Margin="8,302,0,0" VerticalAlignment="Top" Click="_0_Click" FontSize="16" HorizontalAlignment="Left" Width="90" Cursor="Hand"/>
         <Button x:Name="btnmult" Content="*" Height="70" Margin="196,301,0,0" VerticalAlignment="Top" Click="btnmult_Click" FontSize="20" Background="#FFF0B5B5" HorizontalAlignment="Left" Width="90" Cursor="Hand"/>
         <Button x:Name="btnlimpiar" Content="C" Height="70" Margin="102,302,0,0" VerticalAlignment="Top" Click="btnlimpiar_Click" FontSize="18" Background="#FFF0B5B5" HorizontalAlignment="Left" Width="90" Cursor="Hand"/>
         <Button x:Name="btndividir" Content="/" Height="70" Margin="291,301,0,0" VerticalAlignment="Top" Click="btndividir_Click" FontSize="18" Background="#FFF0B5B5" HorizontalAlignment="Left" Width="90" Cursor="Hand"/>
         <Button x:Name="btnsuma" Content="+" Height="146" Margin="291,77,0,0" VerticalAlignment="Top" Click="btnsuma_Click" FontSize="18" Background="#FFF0B5B5" HorizontalAlignment="Left" Width="90" Cursor="Hand" />
         <Button x:Name="btnresta" Content="-" Height="70" Margin="291,228,0,0" VerticalAlignment="Top" Click="btnresta_Click" FontSize="20" Background="#FFF0B5B5" HorizontalAlignment="Left" Width="90" Cursor="Hand"/>
-        <DataGrid x:Name="dgcalculos" Height="277" AutoGenerateColumns="False" Margin="395,45,0,0" VerticalAlignment="Top" CanUserAddRows="False" HorizontalAlignment="Left" Width="297">
+        <DataGrid x:Name="dgcalculos" Height="327" AutoGenerateColumns="False" IsReadOnly="True" Margin="395,45,0,0" VerticalAlignment="Top" CanUserAddRows="False" HorizontalAlignment="Left" Width="297">
             <DataGrid.Columns>
                 <DataGridTextColumn Binding="{Binding valor1}" ClipboardContentBinding="{x:Null}" Header="Numero1"/>
                 <DataGridTextColumn Binding="{Binding valor2}" ClipboardContentBinding="{x:Null}" Header="Numero2"/>
@@ -38,7 +38,7 @@
                 <DataGridTextColumn Binding="{Binding resultado}" ClipboardContentBinding="{x:Null}" Header="Resultado"/>
             </DataGrid.Columns>
         </DataGrid>
-        <Button x:Name="btnlimpiar1" Cursor="Hand" Content="Limpiar grilla" HorizontalAlignment="Left" Height="34" Margin="395,336,0,0" VerticalAlignment="Top" Width="297" Click="btnlimpiar1_Click">
+        <Button x:Name="btnlimpiar1" Cursor="Hand" Content="Limpiar grilla" HorizontalAlignment="Left" Height="34" Margin="395,390,0,0" VerticalAlignment="Top" Width="297" Click="btnlimpiar1_Click">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FFAEF3C1"/>
